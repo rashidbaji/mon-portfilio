@@ -1,0 +1,189 @@
+body{
+   /***background-image: url("rashid.jpg");***/
+   background-size: 100%;
+   font-size: 13px;
+   margin: 0px;
+   padding: 0px;
+}
+h1{
+   font-size: 40px;
+   font-style: italic;
+   font-weight: normal;
+   color:rgb(13, 4, 62);
+   text-align: center;
+   text-shadow: 6px 2px 4px rgb(68, 68, 68);
+}
+header{
+   height: 100px;
+}
+footer{
+   height: 80px;
+   padding-top:30px ;
+   text-align: center;
+   background-color: rgb(173, 168, 168);
+   border-top: 2px solid #aaa;
+}
+nav{
+   width: 100%;
+   background-color: #424558;
+}
+nav ul{
+   margin: 0px;
+   padding: 0px;
+}
+nav li{
+   list-style: none;
+   float: left;
+}
+nav a{
+   display: inline-block;
+   text-decoration: none;
+   padding: 20px 30px;
+   color: white;
+   text-transform: uppercase;
+   font-size: 15px;
+}
+.table{
+   display: table;
+   margin: 0 auto;
+}
+.menu-ind:hover, .présentation{
+   border-top: 5px solid green;
+   background-color: RGBa(64, 200, 130, 0.15);
+}
+.menu-exp:hover, .parcours{
+   border-top: 5px solid yellow;
+   background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-kha:hover, .compétences{
+   border-top: 5px solid blue;
+   background-color: RGBa(000, 112, 192, 0.15);
+}
+.menu-con:hover, .recommandation{
+   border-top: 5px solid red;
+   background-color: RGBa(228, 77, 38, 0.15);
+}
+nav li:hover a{
+   padding: 15px 30px 20px 30px;
+}
+/***partie deco cv***/
+section{
+   width: 100%;
+   min-height: 300px;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+}
+.sec{
+   margin: 0px 10%;
+}
+.left{
+   float: left;
+   width: 30%;
+   font-size: 20px;
+}
+.right {
+   float: left;
+   width: 70%;
+   font-size: 20px;
+
+}
+.cleft, .cright, .sousleft, .sousright{
+   width: 50%;
+   float:left;
+   font-size: 20px;
+}
+.sec::after, .exp::after, .reco::after{
+   content: "";
+   display: table;
+   clear: both;
+}
+.orange{
+   border-top: 5px solid orange;
+   background-color: RGBa(228, 117, 38, 0.15);
+   margin: 0px;
+}
+.rose{
+   border-top: 5px solid #e44d96;
+   background-color: RGBa(228, 77, 128, 0.15);
+   margin-bottom: 0px;
+}
+.vert{
+   border-top: 5px  solid greenyellow;
+   background-color: RGBa(70, 240, 80, 0.15);
+}
+.bleu{
+   border-top: 5px solid #29c;
+   background-color: RGBa(30, 152, 212, 0.15);
+}
+.jaune{
+   border-top: 5px solid yellow;
+   background-color: RGBa(240, 255, 69, 0.15);
+}
+.rouge{
+   border-top: 5px solid violet;
+   background-color: RGBa(228, 77, 38, 0.15);
+   font-style: italic;
+   font-size: 20px;
+}
+.leftexp{
+   width: 45%;
+   float: left;
+}
+.rightexp{
+   width: 50%;
+   float: left;
+   margin-left: 5%;
+   font-size: 20px;
+}
+.leftexp{
+   width: 100%;
+   max-width: 400px;
+   font-size: 20px;
+}
+.amadou{
+   width: 80%;
+}
+.mikado{
+   width: 80%;
+}
+.badji{
+   width: 50%;
+}
+
+
+@media screen and (max-width: 720px){
+   header{
+      height: 50px;
+   }
+   h1{
+      font-size: 20px;
+      margin: 20px 0px 0px 0px;
+   }
+   nav li a {
+      font-size: 12px;
+      padding: 10px;
+   }
+   nav li:hover a{
+      padding: 5px 10px 10px 10px;
+   }
+   .sousleft{
+      font-size: 8px;
+      margin: 25px 0px 0px 0px;
+   }
+   .sousright{
+      font-size: 8px;
+      margin: 25px 0px 0px 0px;
+   }
+   
+
+   .mikado{
+      width: 80%;
+   }
+   .rouge{
+      font-size: 13px;
+   }
+   .badji{
+      width: 70%;
+   }
+
+}
